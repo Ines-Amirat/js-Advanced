@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #principal {
+
+            background: linear-gradient(45deg, rgb(31, 11, 65), rgb(100, 30, 73));
+            height: 100vh;
+            display: flex
+        }
+
+        #userInfo {
+            height: 100%;
+            width: 25%;
+            background-color: transparent;
+
+
+        }
+
+        #postInformations {
+            height: 100%;
+            width: 75%;
+            background-color: rgb(250, 244, 244);
+            margin-top: 10px;
+            margin-right: 10px;
+
+        }
+
+        .User {
+            background-color: rgb(255, 255, 255);
+            border-radius: 100px;
+            font-size: 16px;
+            font-weight: bold;
+            width: 90%;
+            text-align: center;
+            margin-left: 5%;
+            margin-top: 5%;
+            margin-bottom: 7%;
+            cursor: pointer;
+            box-shadow: 0px 3px 15px rgb(92, 87, 87);
+
+        }
+
+        .User:hover {
+            box-shadow: 0px 3px 15px rgb(196, 167, 202);
+            
+
+        }
+
+        .selectedUser{
+             border: solid rgb(123, 146, 121) 5px;
+        }
+
+        h2,
+        h3 {
+            margin: 0%;
+        }
+
+
+
+        .postUser {
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            box-shadow: 0px, 5px, 10px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0px 3px 15px rgb(206, 198, 198);
+
+        }
+    </style>
+</head>
+
+<body style="margin:0% ; padding: 0%;">
+    <div id="principal">
+        <div id="userInfo">
+            <div id="userI" style=" padding-top: 10px;">
+
+            </div>
+        </div>
+        <div id="postInformations">
+            <div id="postI" style="width: 90%; background-color:(236,236,236); margin: 0 auto; margin-top: 30px; ">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<script src="buildingAPIRequest.js"></script>
+
+</html>
