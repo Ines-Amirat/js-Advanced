@@ -5,6 +5,7 @@
                     if (response.ok) {
                         return response.json()
                     }
+                    reject("there is error ")
                 })
                 .then(users => {
 
@@ -28,6 +29,9 @@
     .then(() => {
             userPosts(1)
         })
+    .catch((error) =>{
+            console.log(error)
+    })
     userPosts()
     function userPosts(IdUser) {
 
