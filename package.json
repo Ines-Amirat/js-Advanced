@@ -1,0 +1,22 @@
+{
+  "name": "js-advenced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buildingAPIRequest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ines-Amirat/js-Advanced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ines-Amirat/js-Advanced/issues"
+  },
+  "homepage": "https://github.com/Ines-Amirat/js-Advanced#readme",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
