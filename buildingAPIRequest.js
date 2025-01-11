@@ -24,18 +24,20 @@ function Users() {
     }
 }
 
+
 Users()
+userPosts(1)
 
 
-function userPosts(IdUser,clickedElement) {
+function userPosts(IdUser) {
 
 
 
-    let elements = document.getElementsByClassName("selectedUser")
-    for (element of elements){
-        element.classList.remove("selectedUser")
-    } 
-    clickedElement.classList.add("selectedUser")
+    // let elements = document.getElementsByClassName("selectedUser")
+    // for (element of elements){
+    //     element.classList.remove("selectedUser")
+    // } 
+    // clickedElement.classList.add("selectedUser")
 
     let request = new XMLHttpRequest()
     //request.open("GET", "https://jsonplaceholder.typicode.com/posts?userId="+IdUser)
